@@ -1,3 +1,4 @@
+// About js
 import React from 'react';
 import img from '../../images/about.png'
 import img1 from '../../images/about-1.png'
@@ -5,6 +6,7 @@ import './About.css'
 const About = () => {
     return (
         <>
+            {/* About top */}
             <section className="about">
                 <div className="about-left">
                     <div className="about-left-part">
@@ -30,6 +32,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
+            {/* About bottom */}
             <section className="about-bottom">
                 <div>
                     <img width="440" src={img1} alt="" />

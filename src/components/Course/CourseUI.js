@@ -6,6 +6,7 @@ const CourseUI = (props) => {
     const { courseName, courseDuration, courseTeacher, courseCategory, courseThumbnail, courseDescription } = props.course
     return (
         <div>
+        {/* Course ui */}
             <Card sx={{ maxWidth: 450, height:480 }}>
                 <CardMedia
                     component="img"
@@ -31,20 +32,5 @@ const CourseUI = (props) => {
     );
 };
 
-//  {/* <CardHeader
-//                     
-//                     title={courseName}
-//                     subheader={courseDuration}
-//                 />
-//                 <CardHeader
-//                     title={courseTeacher}
-//                 />
-//                 <CardContent>
-//                     <Typography variant="body2" color="text.secondary">
-//                         {/* {strInstructions.slice(0, 200)} */}
-//                         </Typography>
-
-//                         <button className="meal-btn" >Meal Details</button>
-//                     </CardContent> */}
 
 export default CourseUI;

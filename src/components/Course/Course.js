@@ -1,4 +1,4 @@
-
+// Course js
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import CourseUI from './CourseUI';
@@ -9,7 +9,7 @@ const Course = () => {
     const [courses] = useCourses(false);
     return (
         <div>
-
+            {/* load course data */}
             <div className="course">
                 <Box sx={{ flexGrow: 1 }}>
                     <Grid container spacing={{ xs: 2, md: 4 }} columns={{ xs: 4, sm: 8, md: 12 }}>
@@ -23,7 +23,7 @@ const Course = () => {
                     </Grid>
                 </Box>
             </div>
-           
+
 
         </div>
     );

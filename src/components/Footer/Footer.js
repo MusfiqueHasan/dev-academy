@@ -1,9 +1,11 @@
+// Footer js
 import React from 'react';
 import './Footer.css'
 const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-in">
+            {/* Get in touch */}
                 <div className="get-in-touch">
                     <h1>GET IN TOUCH</h1>
                     <div className="address">
@@ -20,6 +22,7 @@ const Footer = () => {
                     </div>
 
                 </div>
+                {/* ask qus */}
                 <div className="ask-qus">
                     <h1>ASK A QUESTION</h1>
                     <input type="text" name="" id="" placeholder="EMALL ADDRESS" />
@@ -27,6 +30,7 @@ const Footer = () => {
                     
                 </div>
             </div>
+            {/* copy right */}
             <p className="footer-copyright">© 2021 deVAcademy All Rights Reserved.</p>
 
         </div>

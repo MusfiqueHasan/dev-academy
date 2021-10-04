@@ -1,4 +1,4 @@
-
+// Custom hook for course ui
 import { useState } from "react";
 import { useEffect } from "react";
 const useCourses = (option) => {

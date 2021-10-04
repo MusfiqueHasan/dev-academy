@@ -1,4 +1,4 @@
-
+// Custom hook for instructor ui
 import { useEffect, useState } from "react";
 const useInstructor = () => {
     const [instructors, setInstructors] = useState([]);

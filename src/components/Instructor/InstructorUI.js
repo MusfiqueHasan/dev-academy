@@ -4,6 +4,7 @@ const InstructorUI = (props) => {
     const { instructor, experience, instructorImage } = props.instructor
     return (
         <div>
+        {/* instructor UI */}
             <Card sx={{ maxWidth: 350, height: 500 }}>
                 <CardMedia
                     component="img"

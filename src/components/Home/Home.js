@@ -1,6 +1,5 @@
+// Home js
 import React from 'react';
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
 import './Home.css'
 import HomeTop from './HomeTop';
 

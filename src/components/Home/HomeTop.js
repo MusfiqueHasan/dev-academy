@@ -9,6 +9,7 @@ const HomeTop = () => {
     const [courses] = useCourses(true);
     return (
         <>
+            {/* home top section */}
             <section className="home-top">
                 <div className="home-cover-title">
                     <h1 className="title-top">What is best for you</h1>
@@ -17,6 +18,7 @@ const HomeTop = () => {
                     <NavLink to="/course" className="title-btn">Our Courses</NavLink>
                 </div>
             </section>
+            {/* site info */}
             <section className="details" >
                 <div className="course-box">
                     <i className="fas fa-pencil-alt"></i>
@@ -34,6 +36,7 @@ const HomeTop = () => {
                     <p>designing a site to be responsive, it will look good and work well no matter</p>
                 </div>
             </section>
+            {/* course section */}
             <section className="course-section">
                 <div className="home-ui">
                     <div className="ui">
