@@ -4,7 +4,6 @@ import CourseUI from '../Course/CourseUI';
 import useCourses from './../../hooks/useCourses';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-
 import './Home.css'
 const HomeTop = () => {
     const [courses] = useCourses(true);
@@ -22,21 +21,25 @@ const HomeTop = () => {
                 <div className="course-box">
                     <i className="fas fa-pencil-alt"></i>
                     <NavLink className="title" to="/course">Browse Courses</NavLink>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aliquam!</p>
+                    <p>By designing a site to be responsive, it will look good and work well no matter</p>
                 </div>
                 <div className="teacher-box">
                     <i className="fas fa-search"></i>
                     <NavLink className="title" to="/instructor">Find Instructor</NavLink>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aliquam!</p>
+                    <p>By designing a site to be responsive, it will look good and work well no matter</p>
                 </div>
                 <div className="certificate-box">
                     <i className="fas fa-certificate"></i>
                     <NavLink className="title" to="/certificate">Get Certification</NavLink>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aliquam!</p>
+                    <p>designing a site to be responsive, it will look good and work well no matter</p>
                 </div>
             </section>
             <section className="course-section">
                 <div className="home-ui">
+                    <div className="ui">
+                        <h1 className="course-ui">Our Courses</h1>
+                        <p className="course-ui-title">DEVACADEMY ALL COURSES</p>
+                    </div>
                     <Box sx={{ flexGrow: 1 }}>
                         <Grid container spacing={{ xs: 2, md: 4 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                             {

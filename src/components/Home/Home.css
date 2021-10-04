@@ -85,7 +85,9 @@
     color: white;
     margin-bottom: 15px;
 }
-
+.details p{
+    text-align: center;
+}
 .details i{
     font-size: 50px;
     margin-bottom: 20px ;
@@ -105,5 +107,19 @@
 }
 
 .course-section{
-    margin: 0px 300px;
+    margin: 100px 300px;
+}
+.ui{
+    margin-bottom: 50px;
+}
+.course-ui{
+    font-size:40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(179, 179, 179);
+}
+
+.course-ui-title{
+    text-align: center;
 }

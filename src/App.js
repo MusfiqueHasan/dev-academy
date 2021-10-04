@@ -6,10 +6,10 @@ import Home from './components/Home/Home';
 import Error from "./components/PageNotFound/Error";
 import About from './components/About/About';
 import Instructor from './components/Instructor/Instructor';
-
+import './App.css'
 function App() {
   return (
-    <>
+    <div >
       <Router>
         <Header />
 
@@ -24,7 +24,7 @@ function App() {
         <Footer />
 
       </Router>
-    </>
+    </div>
   );
 }
 

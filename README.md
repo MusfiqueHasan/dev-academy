@@ -1,6 +1,6 @@
 # deVAcademy
 
-Website Link: [deVAcademy](https://github.com/facebook/create-react-app).
+Website Link: [deVAcademy](https://dev-academydotcom.netlify.app/).
 
 ## About this site:-
 
