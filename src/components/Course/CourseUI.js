@@ -1,29 +1,31 @@
 import React from 'react';
-import { Card, CardMedia } from '@mui/material';
+import { Card, CardContent, CardMedia } from '@mui/material';
 
 const CourseUI = (props) => {
 
     const { courseName, courseDuration, courseTeacher, courseCategory, courseThumbnail, courseDescription } = props.course
     return (
         <div>
-            <Card sx={{ maxWidth: 345, height: 450 }}>
-
+            <Card sx={{ maxWidth: 450, height:480 }}>
                 <CardMedia
-
                     component="img"
                     height="194"
                     image={courseThumbnail}
                     alt="Paella dish"
                 />
-                <div >
-                    <h1 className="card-title">{courseName}</h1>
-                </div>
-                <div className="course-info">
-                    <h5><span>{courseDuration} </span><span>{courseTeacher}</span> <span>{courseCategory}</span></h5>
-                </div>
-                <p className="course-description">{courseDescription}</p>
-
-
+                <CardContent>
+                    <div >
+                        <h1 className="card-title">{courseName}</h1>
+                    </div>
+                    <div className="course-info">
+                        <h5>
+                        <span><i className="fas fa-calendar-alt"></i> {courseDuration} </span>
+                        <span><i className="fas fa-user"></i> {courseTeacher}</span> 
+                        <span><i className="fas fa-graduation-cap"></i> {courseCategory}</span></h5>
+                    </div>
+                    <p className="course-description">{courseDescription}</p>
+                    <button className="course-btn">Course Details</button>
+                </CardContent>
             </Card>
         </div>
     );

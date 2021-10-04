@@ -1,5 +1,5 @@
 .course{
-    margin: 0px 200px;
+    margin: 50px 100px;
 }
 .card-title{
     font-weight: 600;
@@ -11,8 +11,30 @@
 .course-info{
     margin-top: 10px;
     display: flex;
-    justify-content: center;
 }
 .course-info span{
     margin: 0px 10px;
+}
+.course-info i{
+    color: #00b894;
+}
+.course-description{
+    margin-top: 20px;
+    padding: 0px 10px;
+    text-align:justify ;
+    color: rgb(136, 134, 134);
+}
+
+.course-btn{
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 10px;
+    border-radius: 5px;
+    text-transform: uppercase; 
+    text-decoration: none;
+    background-color: #00b894;
 }

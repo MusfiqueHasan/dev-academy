@@ -1,0 +1,15 @@
+.instructor{
+    margin: 50px 100px;
+}
+
+.instructor-title{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+.instructor-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
