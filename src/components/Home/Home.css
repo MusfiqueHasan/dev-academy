@@ -1,0 +1,101 @@
+.home-top{
+    width: 100%;
+    height: 80vh;    
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../../images/home-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}    
+.home-cover-title{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.title-top, .title-middle, .title-bottom{
+   color: white;
+   text-transform: uppercase; 
+   font-size: 25px;
+   font-weight: 500;
+}
+.title-middle{
+    font-weight: bold;
+    font-size: 50px;
+}
+.title-bottom{
+    font-weight: 700;
+    font-size: 15px;
+}
+.title-btn{
+    border: none;
+    outline: none;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 40px 0px;
+    border-radius: 5px;
+    text-transform: uppercase; 
+    text-decoration: none;
+    background-color: #00b894;
+}
+.title-btn:hover{
+    background-color:#32ebb6 ;
+}
+.details{
+    display: flex;
+    justify-content: center;
+}
+.course-box, .teacher-box, .certificate-box {
+    width: 400px;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    transform: translateY(-40px);
+}
+.course-box{
+    background-color:#00b894;
+}
+.teacher-box{
+    background-color: #55efc4;
+
+}
+
+.certificate-box{
+    background-color: #00cec9;
+}
+
+.details .title{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.details i{
+    font-size: 50px;
+    margin-bottom: 20px ;
+}
+
+.certificate-box:hover i{
+    transform: translateY(-40px);
+    transition: all .5s ease-in-out ;
+}
+.teacher-box:hover i{
+    transform: translateY(-40px);
+    transition: all .5s ease-in-out ;
+}
+.course-box:hover i{
+    transform: translateY(-40px);
+    transition: all .5s ease-in-out ;
+}

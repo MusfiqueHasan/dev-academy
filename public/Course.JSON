@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "courseName": "CSS3 FOR WEB DESIGNERS",
+        "courseDuration": "1M 3H",
+        "courseTeacher": "ASHRAF BADRY ",
+        "courseCategory": "BEGINNER",
+        "courseThumbnail": "https://couponos.me/wp-content/uploads/Web-Design-Foundation-HTML5-CSS3-for-Beginners.jpg",
+        "courseDescription": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante"
+    },
+    {
+        "id": 2,
+        "courseName": "RESPONSIVE WEB DESIGN",
+        "courseDuration": "2M 3H",
+        "courseTeacher": "ASHRAF BADRY ",
+        "courseCategory": "BEGINNER",
+        "courseThumbnail": "https://13p13n407tzq3x5jwg1daxox-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/what-is-a-responsive-website.png",
+        "courseDescription": "By designing a site to be responsive, it will look good and work well no matter what device your users have in front of them. Throughout this course, you’ll work through a"
+    },
+    {
+        "id": 3,
+        "courseName": "JAVASCRIPT",
+        "courseDuration": "4M 7H",
+        "courseTeacher": "JOHN SMITH",
+        "courseCategory": "BEGINNER",
+        "courseThumbnail": "https://www.computerfever.com/wp-content/uploads/2016/04/javascript-featured.png",
+        "courseDescription": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante"
+    },
+    {
+        "id": 4,
+        "courseName": "FRONT-END DESIGNER",
+        "courseDuration": "3M 2H",
+        "courseTeacher": "ASHRAF BADRY ",
+        "courseCategory": "INTERMEDIATE",
+        "courseThumbnail": "https://www.clariontech.com/hubfs/BlogImage-66.png",
+        "courseDescription": "A study of what constitutes rational human behavior in the endeavor to fulfill needs and wants. Thanks to this, you will understand the inter-related studies of"
+    },
+    {
+        "id": 5,
+        "courseName": "BACK-END DESIGNER",
+        "courseDuration": "1M",
+        "courseTeacher": "MARIA KELLY ",
+        "courseCategory": "INTERMEDIATE",
+        "courseThumbnail": "https://img.freepik.com/free-vector/backend-development-programming-languages_108061-351.jpg?size=626&ext=jpg",
+        "courseDescription": "Explore the legal issues involved in real estate law, from investing to title examinations. You’ll not only master the essentials, but you’ll receive hands-on applications and"
+    },
+    {
+        "id": 6,
+        "courseName": "DATABASE ANALYSIS",
+        "courseDuration": "20 DAY",
+        "courseTeacher": "STEPHEN JENKINGS ",
+        "courseCategory": "MASTER",
+        "courseThumbnail": "https://miro.medium.com/max/1016/1*U0GO0RO7hymLZ-_gJGXWLw.png",
+        "courseDescription": "The Business Law course focuses on the fundamental relationship between law and business and is ideal for those planning careers in a wide range of business areas"
+    },
+    {
+        "id": 7,
+        "courseName": "ANDROID PROGRAMMING",
+        "courseDuration": "1M 2H",
+        "courseTeacher": "AMANDA MC MEELE ",
+        "courseCategory": "INTERMEDIATE",
+        "courseThumbnail": "https://miro.medium.com/max/1400/1*TriVn-OMmn-niO4fwGAE8A.jpeg",
+        "courseDescription": "Content Strategy practitioners know how to use words, pictures, video, and social and mobile media to interact with their most important constituents with trustable,"
+    },
+    {
+        "id": 8,
+        "courseName": "IOS9 PROGRAMMING",
+        "courseDuration": "1M",
+        "courseTeacher": "KATHY FOSTER",
+        "courseCategory": "INTERMEDIATE",
+        "courseThumbnail": "https://swiftludus.org/wp-content/uploads/2016/05/CourseImage-iOS9iPhoneU2.png.webp",
+        "courseDescription": "Overviewing the leading contemporary conceptions of justice, including utilitarian, liberal, libertarian, communitarian, and deliberative-democratic theories, and"
+    },
+    {
+        "id": 9,
+        "courseName": "DOM SCRIPTING",
+        "courseDuration": "3M 3H",
+        "courseTeacher": "NICOLAS PETER",
+        "courseCategory": "MASTER",
+        "courseThumbnail": "https://couponos.me/wp-content/uploads/Web-Design-Foundation-HTML5-CSS3-for-Beginners.jpg",
+        "courseDescription": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante"
+    }
+]
