@@ -1,0 +1,17 @@
+.certificate-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificate{
+    padding: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+}
+.certificate i{
+    font-size: 50px;
+    color: orange;
+    margin-bottom: 20px;
+}

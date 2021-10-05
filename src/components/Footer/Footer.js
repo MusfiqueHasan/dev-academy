@@ -8,6 +8,7 @@ const Footer = () => {
             {/* Get in touch */}
                 <div className="get-in-touch">
                     <h1>GET IN TOUCH</h1>
+                    <hr />
                     <div className="address">
                         <i class="fas fa-map-marker-alt"></i>
                         <p>G5 Technology JSC, Room 1101, Glory Palace Apartment, Truong Thi Ward, Vinh City, Nghe An Province, Bangladesh(42000).</p>

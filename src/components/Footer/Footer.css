@@ -20,11 +20,16 @@
 }
 
 .get-in-touch h1{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
-    margin-bottom: 17px;
+    margin-bottom: 10px;
 }
-
+.get-in-touch hr{
+    width: 100px;
+    height:2px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
 .address{
     display: flex;
     margin-top: 10px;
@@ -61,9 +66,17 @@
     outline: none;
     padding: 10px 30px;
     margin-bottom: 5px;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
     background-color: #00b894; 
 }
 .ask-qus span{
     color: white;
 
+}
+
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.561);
+    font-weight: 400;
 }

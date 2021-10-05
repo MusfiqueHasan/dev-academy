@@ -4,6 +4,7 @@ import './CommonPage.css'
 const CommonPage = (props) => {
     return (
         <>
+        {/* common page for UI */}
             <div className="common-page">
                 <div className="common-title-inner">
                     <h1>{props.title}</h1>

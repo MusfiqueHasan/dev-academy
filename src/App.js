@@ -9,13 +9,13 @@ import Instructor from './components/Instructor/Instructor';
 import './App.css'
 import CommonPage from "./components/CommonPage/CommonPage";
 import SingleCourseUI from "./components/Course/SingleCourseUI";
+import Certificate from './components/Certificate/Certificate';
 function App() {
   const courseText = `Courses`
   return (
     <div >
       <Router>
         <Header />
-
         <Switch>
           <Route exact path="/"><Home /></Route>
           <Route path="/home"><Home /></Route>
@@ -23,11 +23,11 @@ function App() {
           <Route path="/course"><Course courseText={courseText} /></Route>
           <Route path="/instructor"><Instructor /></Route>
           <Route path="/common"><CommonPage /></Route>
+          <Route path="/certificate"><Certificate /></Route>
           <Route exact path="/courses/:id/:cn/:cd/:ct/:cc/:ctb"><SingleCourseUI /></Route>
           <Route path="*"><Error /></Route>
         </Switch>
         <Footer />
-
       </Router>
     </div>
   );
