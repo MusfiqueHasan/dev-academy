@@ -39,3 +39,36 @@
     text-decoration: none;
     background-color: #f39c12;
 }
+
+.single-details{
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.details-more{
+    width: 50%;
+}
+.details-more h1{
+    margin-bottom: 10px;
+}
+
+.details-more span{
+    font-size: 18px;
+    text-align:right;
+    font-weight: bolder;
+    margin-right: 10px;
+    color: #f39c12;
+}
+.details-more .info-details{
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.637);
+    text-align: justify;
+}
+.details-more .info{
+    font-size: 14px;
+    color: black;
+}
+.details-more p{
+    margin-bottom: 20px;
+   
+}

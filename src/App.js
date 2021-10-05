@@ -8,6 +8,7 @@ import About from './components/About/About';
 import Instructor from './components/Instructor/Instructor';
 import './App.css'
 import CommonPage from "./components/CommonPage/CommonPage";
+import SingleCourseUI from "./components/Course/SingleCourseUI";
 function App() {
   const courseText = `Courses`
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/course"><Course courseText={courseText} /></Route>
           <Route path="/instructor"><Instructor /></Route>
           <Route path="/common"><CommonPage /></Route>
+          <Route exact path="/courses/:id/:cn/:cd/:ct/:cc/:ctb"><SingleCourseUI /></Route>
           <Route path="*"><Error /></Route>
         </Switch>
         <Footer />
