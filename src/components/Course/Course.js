@@ -12,9 +12,9 @@ const Course = () => {
     const [courses] = useCourses(false);
     const history = useHistory()
     const handleClick = (course) => {
-        const {id,courseName, courseDuration, courseTeacher, courseCategory, courseDescription }= course;    
+        const {id,courseName, price, courseDuration, courseTeacher, courseCategory, courseDescription }= course;    
         
-        history.push(`/courses/${id}/${courseName}/${courseDuration}/${courseTeacher}/${courseCategory}/${courseDescription}`)
+        history.push(`/courses/${id}/${courseName}/${courseDuration}/${courseTeacher}/${courseCategory}/${courseDescription}/${price}`)
         
     }
     return (

@@ -24,7 +24,7 @@ function App() {
           <Route path="/instructor"><Instructor /></Route>
           <Route path="/common"><CommonPage /></Route>
           <Route path="/certificate"><Certificate /></Route>
-          <Route exact path="/courses/:id/:cn/:cd/:ct/:cc/:ctb"><SingleCourseUI /></Route>
+          <Route exact path="/courses/:id/:cn/:cd/:ct/:cc/:ctb/:price"><SingleCourseUI /></Route>
           <Route path="*"><Error /></Route>
         </Switch>
         <Footer />

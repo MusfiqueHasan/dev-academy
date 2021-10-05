@@ -9,7 +9,7 @@ import { useHistory } from 'react-router';
 
 const SingleCourseUI = () => {
     const history = useHistory()
-    const { id, cn, cd, ct, cc, ctb } = useParams();
+    const { id, cn, cd, ct, cc, ctb, price } = useParams();
     const handleBack = () => {
         history.push('/course')
     }
@@ -35,7 +35,9 @@ const SingleCourseUI = () => {
                                     <h5>
                                         <span><i className="fas fa-calendar-alt"></i> {cd} </span>
                                         <span><i className="fas fa-user"></i> {ct}</span>
-                                        <span><i className="fas fa-graduation-cap"></i> {cc}</span></h5>
+                                        <span><i className="fas fa-graduation-cap"></i> {cc}</span>
+                                        <span><i class="fas fa-dollar-sign"></i> {price}</span>
+                                    </h5>
                                 </div>
                                 <p className="course-description">{ctb}</p>
                                 <button className="course-btn" onClick={handleBack} >See all Courses</button>
@@ -49,6 +51,7 @@ const SingleCourseUI = () => {
                     <p><span>Details:</span> <span className="info-details">{ctb}</span></p>
                     <p><span>Category:</span> <span className="info">{cc}</span></p>
                     <p><span>Instructor:</span> <span className="info">{ct}</span></p>
+                    <p><span>Price: </span> <span className="info">${price}</span></p>
                 </div>
             </div>
         </CommonPage>

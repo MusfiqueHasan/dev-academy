@@ -2,6 +2,7 @@
     {
         "id": 1,
         "courseName": "CSS3 FOR WEB DESIGNERS",
+        "price":5000,
         "courseDuration": "1M 3H",
         "courseTeacher": "ASHRAF BADRY ",
         "courseCategory": "BEGINNER",
@@ -11,6 +12,7 @@
     {
         "id": 2,
         "courseName": "RESPONSIVE WEB DESIGN",
+        "price":2000,
         "courseDuration": "2M 3H",
         "courseTeacher": "ASHRAF BADRY ",
         "courseCategory": "BEGINNER",
@@ -20,6 +22,7 @@
     {
         "id": 3,
         "courseName": "JAVASCRIPT",
+        "price":4000,
         "courseDuration": "4M 7H",
         "courseTeacher": "JOHN SMITH",
         "courseCategory": "BEGINNER",
@@ -29,6 +32,7 @@
     {
         "id": 4,
         "courseName": "FRONT-END DESIGNER",
+        "price":5600,
         "courseDuration": "3M 2H",
         "courseTeacher": "ASHRAF BADRY ",
         "courseCategory": "INTERMEDIATE",
@@ -38,6 +42,7 @@
     {
         "id": 5,
         "courseName": "BACK-END DESIGNER",
+        "price":5900,
         "courseDuration": "1M",
         "courseTeacher": "MARIA KELLY",
         "courseCategory": "INTERMEDIATE",
@@ -47,6 +52,7 @@
     {
         "id": 6,
         "courseName": "DATABASE ANALYSIS",
+        "price":8000,
         "courseDuration": "20 DAY",
         "courseTeacher": "STEPHEN JENKINGS ",
         "courseCategory": "MASTER",
@@ -56,6 +62,7 @@
     {
         "id": 7,
         "courseName": "ANDROID PROGRAMMING",
+        "price":7000,
         "courseDuration": "1M 2H",
         "courseTeacher": "AMANDA MC MEELE ",
         "courseCategory": "INTERMEDIATE",
@@ -65,6 +72,7 @@
     {
         "id": 8,
         "courseName": "IOS9 PROGRAMMING",
+        "price":6000,
         "courseDuration": "1M",
         "courseTeacher": "KATHY FOSTER",
         "courseCategory": "INTERMEDIATE",
@@ -74,6 +82,7 @@
     {
         "id": 9,
         "courseName": "DOM SCRIPTING",
+        "price":3500,
         "courseDuration": "3M 3H",
         "courseTeacher": "NICOLAS PETER",
         "courseCategory": "MASTER",
