@@ -6,25 +6,28 @@ import { useState } from "react";
 import './Instructor.css'
 import InstructorUI from './InstructorUI';
 import useInstructor from './../../hooks/useInstructor';
+import CommonPage from '../CommonPage/CommonPage';
 const Instructor = () => {
-   const [instructors]=useInstructor()
+    const [instructors] = useInstructor()
     return (
-        <div>
-        {/* instructor data load */}
-            <div className="instructor">
-                <Box sx={{ flexGrow: 1 }}>
-                    <Grid container spacing={{ xs: 2, md: 4 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-                        {
-                            instructors.map(instructor => <Grid item xs={2} sm={3} md={3} >
-                                <InstructorUI key={instructor.id} instructor={instructor} />
+        <CommonPage title={`instructor`}>
+            <div>
+                {/* instructor data load */}
+                <div className="instructor">
+                    <Box sx={{ flexGrow: 1 }}>
+                        <Grid container spacing={{ xs: 2, md: 4 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+                            {
+                                instructors.map(instructor => <Grid item xs={2} sm={3} md={3} >
+                                    <InstructorUI key={instructor.id} instructor={instructor} />
 
-                            </Grid>)
-                        }
+                                </Grid>)
+                            }
 
-                    </Grid>
-                </Box>
+                        </Grid>
+                    </Box>
+                </div>
             </div>
-        </div>
+        </CommonPage>
     );
 };
 

@@ -4,7 +4,9 @@
     grid-template-columns: repeat(3,1fr);
     margin: 50px 100px;
 }
-
+.about .image{
+    margin: auto;
+}
 .about-left-part{
     display: flex;
     flex-direction: column;
@@ -17,7 +19,7 @@
 
 .about-left-part  h1{
     font-size: 22px;
-    color: rgb(122, 122, 122);
+    color: #f39c12;
     margin-bottom: 10px;
 }
 
@@ -33,7 +35,7 @@
 
 .about-right-part h1{
     font-size: 22px;
-    color: rgb(122, 122, 122);
+    color: #f39c12;
     margin-bottom: 10px;
 }
 
@@ -54,7 +56,7 @@
 .about-bottom-details h4{
     font-size: 18px;
     margin-bottom: 15px;
-    color: rgb(122, 122, 122);
+    color:#f39c12;
 }
 
 .about-bottom-details p{
@@ -70,10 +72,32 @@
 }
 
 .bottom-details h1{
-    color: rgb(93, 92, 92);
+    color: #f39c12;
     
 }
 .bottom-details i{
    margin: 15px;
     
+}
+
+.about-counter{    
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #16a085;
+}
+
+.about-counter p{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.about-counter h3{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
 }

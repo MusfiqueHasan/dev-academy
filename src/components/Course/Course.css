@@ -17,7 +17,7 @@
     margin: 0px 10px;
 }
 .course-info i{
-    color: #00b894;
+    color: #f39c12;
 }
 .course-description{
     margin-top: 20px;
@@ -37,5 +37,5 @@
     border-radius: 5px;
     text-transform: uppercase; 
     text-decoration: none;
-    background-color: #00b894;
+    background-color: #f39c12;
 }

@@ -5,6 +5,7 @@ import useCourses from './../../hooks/useCourses';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import './Home.css'
+import AboutTopUi from '../About/AboutTopUi';
 const HomeTop = () => {
     const [courses] = useCourses(true);
     return (
@@ -36,12 +37,21 @@ const HomeTop = () => {
                     <p>designing a site to be responsive, it will look good and work well no matter</p>
                 </div>
             </section>
+            <section>
+            <div className="ui">
+                        <h1 className="course-ui">About us</h1>
+                        <p className="course-ui-title">DEVACADEMY ALL COURSES</p>
+                        <hr />
+                    </div>
+                <AboutTopUi/>
+            </section>
             {/* course section */}
             <section className="course-section">
                 <div className="home-ui">
                     <div className="ui">
                         <h1 className="course-ui">Our Courses</h1>
                         <p className="course-ui-title">DEVACADEMY ALL COURSES</p>
+                        <hr />
                     </div>
                     <Box sx={{ flexGrow: 1 }}>
                         <Grid container spacing={{ xs: 2, md: 4 }} columns={{ xs: 4, sm: 8, md: 12 }}>

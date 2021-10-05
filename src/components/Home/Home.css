@@ -47,7 +47,7 @@
     border-radius: 5px;
     text-transform: uppercase; 
     text-decoration: none;
-    background-color: #00b894;
+    background-color: #f39c12;
 }
 .title-btn:hover{
     background-color:#32ebb6 ;
@@ -55,6 +55,7 @@
 .details{
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .course-box, .teacher-box, .certificate-box {
     width: 400px;
@@ -119,9 +120,17 @@
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    color: rgb(179, 179, 179);
+    color:rgb(184, 184, 184);
 }
-
+.ui hr{
+    width: 100px;
+    background-color: #f39c12;
+    height: 3px;
+    margin: auto;
+}
 .course-ui-title{
     text-align: center;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    color: #f39c12;
 }

@@ -27,6 +27,7 @@ const Footer = () => {
                     <h1>ASK A QUESTION</h1>
                     <input type="text" name="" id="" placeholder="EMALL ADDRESS" />
                     <input type="text" name="" id="" placeholder="QUESTION" />
+                    <input type="button" value="submit" />
                     
                 </div>
             </div>

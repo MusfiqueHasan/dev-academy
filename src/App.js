@@ -7,7 +7,9 @@ import Error from "./components/PageNotFound/Error";
 import About from './components/About/About';
 import Instructor from './components/Instructor/Instructor';
 import './App.css'
+import CommonPage from "./components/CommonPage/CommonPage";
 function App() {
+  const courseText = `Courses`
   return (
     <div >
       <Router>
@@ -17,8 +19,9 @@ function App() {
           <Route exact path="/"><Home /></Route>
           <Route path="/home"><Home /></Route>
           <Route path="/about"><About /></Route>
-          <Route path="/course"><Course /></Route>
+          <Route path="/course"><Course courseText={courseText} /></Route>
           <Route path="/instructor"><Instructor /></Route>
+          <Route path="/common"><CommonPage /></Route>
           <Route path="*"><Error /></Route>
         </Switch>
         <Footer />
